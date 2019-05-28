@@ -2,7 +2,7 @@ from hyperopt import STATUS_OK, STATUS_FAIL
 from rasa_nlu.training_data import load_data
 from rasa_nlu.config import RasaNLUModelConfig
 from rasa_nlu.utils import read_yaml
-from rasa_nlu.evaluate import run_evaluation
+from rasa_nlu.test import run_evaluation
 from rasa_nlu.model import Trainer
 import os
 import logging
